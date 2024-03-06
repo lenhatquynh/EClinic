@@ -1,0 +1,18 @@
+syntax = "proto3";
+option csharp_namespace = "Project.CommunicateService.Protos";
+
+service ProfileService  {
+  rpc GetAllProfile (GetAllProfileRequest) returns (GetAllProfileResponse);
+}
+message GetAllProfileRequest  {
+  repeated string UserIDs = 1;
+}
+message GetAllProfileResponse  {
+  repeated GetAllProfile Profiles = 1;
+}
+message GetAllProfile  {
+  string UserID = 1;
+  string FirstName = 2;
+  string LastName = 3;
+  string Avatar = 4;
+}

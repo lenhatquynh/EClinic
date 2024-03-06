@@ -1,0 +1,157 @@
+version: '3.4'
+
+services:
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server:latest"
+    container_name: sqlserver
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.32
+    ports:
+     - "1444:1433"
+    environment:
+     - ACCEPT_EULA=Y
+     - SA_PASSWORD=Eclinic123
+  mongodb:
+    image: "mongo:latest"
+    container_name: mongodb
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.2
+    ports:
+     - "27018:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=ForumService,NewsService
+  redis:
+    image: "redis:latest"
+    container_name: redis
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.3
+    ports:
+     - "6379:6379"
+  rabbitmq:
+    image: "rabbitmq:3.11-management"
+    container_name: rabbitmq
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.4
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=eclinic
+      - RABBITMQ_DEFAULT_PASS=eclinic
+  project.identityservice:
+    image: ${DOCKER_REGISTRY-}projectidentityservice
+    build:
+      context: .
+      dockerfile: Project.IdentityService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.5
+  project.apigateways:
+    image: ${DOCKER_REGISTRY-}projectapigateways
+    build:
+      context: .
+      dockerfile: Project.APIGateways/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.6
+  project.profileservice:
+    image: ${DOCKER_REGISTRY-}projectprofileservice
+    build:
+      context: .
+      dockerfile: Project.ProfileService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.7
+
+  project.forumservice:
+    image: ${DOCKER_REGISTRY-}projectforumservice
+    build:
+      context: .
+      dockerfile: Project.ForumService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.8
+
+  project.notificationservice:
+    image: ${DOCKER_REGISTRY-}projectnotificationservice
+    build:
+      context: .
+      dockerfile: Project.NotificationService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.9
+  # project.testservice:
+  #   image: ${DOCKER_REGISTRY-}projecttestservice
+  #   build:
+  #     context: .
+  #     dockerfile: Project.TestService/Dockerfile
+  #   networks:
+  #     eclinic:
+  #       ipv4_address: 172.20.0.10
+
+  project.blogservice:
+    image: ${DOCKER_REGISTRY-}projectblogservice
+    build:
+      context: .
+      dockerfile: Project.BlogsService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.11
+
+  project.serviceinformationservice:
+    image: ${DOCKER_REGISTRY-}projectserviceinformationservice
+    build:
+      context: .
+      dockerfile: Project.ServiceInformationService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.12
+
+  project.bookingservice:
+    image: ${DOCKER_REGISTRY-}projectbookingservice
+    build:
+      context: .
+      dockerfile: Project.BookingService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.13
+
+  project.communicateservice:
+    image: ${DOCKER_REGISTRY-}projectcommunicateservice
+    build:
+      context: .
+      dockerfile: Project.CommunicateService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.14
+
+  project.paymentservice:
+    image: ${DOCKER_REGISTRY-}projectpaymentservice
+    build:
+      context: .
+      dockerfile: Project.PaymentService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.15
+  project.aiservice:
+    image: ${DOCKER_REGISTRY-}projectaiservice
+    container_name: ai
+    build:
+      context: .
+      dockerfile: Project.AIService/Dockerfile
+    networks:
+      eclinic:
+        ipv4_address: 172.20.0.16
+    ports:
+      - "9889:8000"
+networks:
+  eclinic:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24

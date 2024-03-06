@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": "Trang chủ",
+    "forum": "Cổng thông tin",
+    "servies": "Dịch vụ",
+    "detail": "Chi tiết",
+    "profile": "Hồ sơ",
+    "search": "Tra cứu",
+    "doctors": "Danh sách bác sĩ",
+    "blog": "Blog",
+    "changePassword": "Thay đổi mật khẩu",
+    "historyQuestion": "Lịch sử câu hỏi",
+    "comunication": "Giao tiếp",
+    "scheduleApp": "Lịch hẹn",
+    "logout": "Đăng xuất",
+    "information": "Thông tin",
+    "search_page": {
+      "title": "Tra cứu nhanh thông tin sức khỏe",
+      "search": "Từ khóa được tìm kiếm nhiều nhất:"
+    },
+    "profileUser": {
+      "add": "Thêm hồ sơ mới của gia đình bạn",
+      "edit": "Chỉnh sửa hồ sơ của gia đình bạn",
+      "add-profile": "Thêm hồ sơ",
+      "find": "Tìm kiếm hồ sơ",
+      "update": "Cập nhật hồ sơ",
+      "delete": "Xóa hồ sơ",
+      "change": "Thay đổi thông tin",
+      "form": {
+        "first_name": "Họ",
+        "last_name": "Tên",
+        "full_name": "Họ và Tên",
+        "email": "Email",
+        "phone_number": "Số Điện Thoại",
+        "gender": "Giới Tính",
+        "address": "Địa Chỉ",
+        "date_of_birth": "Ngày Sinh",
+        "blood_type": "Nhóm Máu",
+        "height": "Chiều Cao",
+        "weight": "Cân Nặng",
+        "relationship": "Tình Trạng Hôn Nhân",
+        "male": "Nam",
+        "feMale": "Nữ"
+      }
+    }
+  },
+  "booking": {
+    "btn": "Đặt lịch",
+    "note_schedule": "Không có lịch trình của bác sĩ",
+    "btn_cancel": "Hủy",
+    "btn_ct": "Tiếp tục",
+    "btn_black": "Quay lại",
+    "btn_pay": "Xác nhận thanh toán",
+    "title": "Đặt lịch cuộc hẹn",
+    "desc": "Lựa chọn lịch hẹn và hình thức kết nối",
+    "note": "Lưu ý:",
+    "gray": "Ô xám",
+    "free": "là rảnh",
+    "selected": "là đã có người chọn",
+    "you_selected": "là bạn đã chọn",
+    "red": "Ô đỏ",
+    "blue": "Ô xanh dương",
+    "select_date": "Chọn ngày",
+    "select_time": "Chọn giờ",
+    "add": "Thông tin bổ sung",
+    "select_payment": "Chọn phương thức giao tiếp",
+    "select_pro": "Chọn hồ sơ bạn muốn đặt khám",
+    "input_search": "Tìm kiếm hồ sợ bởi từ khóa",
+    "summary": "Tóm tắt thông tin",
+    "total": "Tổng cộng"
+  }
+}

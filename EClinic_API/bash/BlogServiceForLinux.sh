@@ -1,0 +1,2 @@
+.\linuxmongoimport --db BlogService --collection Blog --file ../Database/DataMongo/Blog.json --jsonArray --uri "mongodb://localhost:27018/"
+.\linuxmongoimport --db BlogService --collection Hashtag --file ../Database/DataMongo/BlogHashtag.json --jsonArray --uri "mongodb://localhost:27018/"

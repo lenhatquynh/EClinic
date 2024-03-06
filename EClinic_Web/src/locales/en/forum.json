@@ -1,0 +1,32 @@
+{
+  "questionTitleHeading": "Ask a free question",
+  "inputTitle": "Name of the question...",
+  "textareaDesc": "Note the detailed description of what you want to ask the doctor:\n - Gender, age;\n - Symptoms encountered;\n - When did symptoms start;\n - What treatment measures have been taken Not yet?",
+  "upload": "Upload image",
+  "textareaChat": "Enter your question text...",
+  "chatTitle": "What support do you need?",
+  "desctiptionUpload": {
+    "imagetitle": "Add attached image",
+    "note": "Up to 4 images"
+  },
+  "btnUpload": "Submit a question",
+  "search": {
+    "heading": "Popular items",
+    "input": "Search by keyword"
+  },
+  "questionHeadingFav": "Featured Question",
+  "allquestion": "All questions",
+  "card": {
+    "by": "Answered by",
+    "create": "Created by",
+    "exp": "years of experience"
+  },
+  "question": "Question",
+  "anwers": "Answered here",
+  "tags": "Tags",
+  "discussion": "Discussion",
+  "writeComment": "Write your comment here...",
+  "btnComment": "Post",
+  "reply": "Reply",
+  "related": "Related question"
+}

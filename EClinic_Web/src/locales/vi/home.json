@@ -1,0 +1,57 @@
+{
+  "banner": {
+    "menu": {
+      "Portal": "Cổng thông tin",
+      "Services": "Gói dịch vụ",
+      "Booking": "Đặt Khám",
+      "Contact": "Liên hệ",
+      "Blog": "Blogs",
+      "Doctor": "Bác sĩ"
+    },
+    "title": "Hiểu, theo dõi, cải thiện sức khỏe",
+    "description": "Nền tảng đặt dịch vụ và sản phẩm y tế dành cho bạn và gia đình",
+    "search": {
+      "keyword": "Tìm kiếm nhiều nhất",
+      "placeholder": "Tìm bệnh, bác sĩ, hỏi đáp,...."
+    },
+    "button": {
+      "signup": "Đăng kí",
+      "signin": "Đăng nhập"
+    }
+  },
+  "appoiment": {
+    "title": "Đặt lịch khám trực tuyến",
+    "desc": "Đặt lịch hẹn với các bác sĩ giỏi, luôn tận tâm chăm sóc sức khỏe của bạn và gia đình.",
+    "btn": "Đặt lịch khám ngay"
+  },
+  "service": {
+    "title": "Các gói dịch vu phổ biến",
+    "desc": "Hơn 30 dịch vụ chúng tôi có thể cung cấp cho bạn",
+    "btn": "Tất cả gói dịch vụ",
+    "btnCard": "Xem trực tiếp"
+  },
+  "blog": {
+    "title": "Tin tức sức khỏe hàng ngày",
+    "btn": "Xem tất cả blogs"
+  },
+  "forum": {
+    "title": "Hỏi đáp bác sĩ",
+    "btn1": "Đặt câu hỏi miễn phí",
+    "btn2": "Xem tất cả"
+  },
+  "footer": {
+    "desc": "Công ty công nghệ cung cấp giải pháp y tế tại Việt Nam",
+    "ser": "Dịch vụ",
+    "Contact": "Liên hệ",
+    "serList": [
+      {
+        "title": "Gói dịch vụ",
+        "link": "/services"
+      },
+      {
+        "title": "Đặt bác sĩ",
+        "link": "/doctors"
+      }
+    ]
+  }
+}

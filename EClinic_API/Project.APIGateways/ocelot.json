@@ -1,0 +1,410 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.5",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/identity/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.7",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/profile/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.8",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/forum/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.9",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/notification/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.11",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/blog/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.12",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/serviceinformation/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.13",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/booking/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.14",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/communication/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/message/{everything}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.14",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/message/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+      "SwaggerKey": "ai"
+    },
+    {
+      "DownstreamPathTemplate": "/call/{everything}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.14",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/call/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+      "SwaggerKey": "ai"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.15",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/payment/{controller}/{Action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/MachineLearning/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/MachineLearning/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/MachineLearning/GetByID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/MachineLearning/GetByID",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/MachineLearning/Create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/MachineLearning/Create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/MachineLearning/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/MachineLearning/Update",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/MachineLearning/Delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/MachineLearning/Delete",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/DeepLearning/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/DeepLearning/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/DeepLearning/GetByID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/DeepLearning/GetByID",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/DeepLearning/Create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/DeepLearning/Create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/DeepLearning/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/DeepLearning/Update",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/DeepLearning/Delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/DeepLearning/Delete",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/GetByID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/GetByID",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/Create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/Create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/Update",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/Delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/Delete",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/Model/Active",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Model/Active",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/History/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/History/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/History/GetByID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/History/GetByID",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/AIPredict/DoctorPredict",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/AIPredict/DoctorPredict",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/AIPredict/ExpertPredict",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.20.0.16",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/AIPredict/ExpertPredict",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:8888"
+  }
+}

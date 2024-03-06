@@ -1,0 +1,32 @@
+{
+  "questionTitleHeading": "Đặt câu hỏi miễn phí",
+  "inputTitle": "Tên của câu hỏi...",
+  "textareaDesc": "Lưu ý mô tả chi tiết nội dung muốn hỏi bác sĩ:\n  - Giới tính, tuổi;\n  - Triệu chứng gặp phải;\n  - Bắt đầu có triệu chứng khi nào;\n  - Đã dùng biện pháp xử lý nào chưa?",
+  "upload": "Tải hình",
+  "textareaChat": "Nhập nội dung câu hỏi...",
+  "btnUpload": "Gửi câu hỏi",
+  "chatTitle": "Bạn cần hổ trợ gì?",
+  "desctiptionUpload": {
+    "imagetitle": " Thêm hình ảnh đính kèm",
+    "note": "Tối đa 4 hình, chỉ Bác sĩ có thể xem"
+  },
+  "search": {
+    "heading": "Mục phổ biến",
+    "input": "Tìm kiếm theo từ khóa"
+  },
+  "questionHeadingFav": "Câu hỏi nổi bật",
+  "allquestion": "Tất cả câu hỏi",
+  "card": {
+    "by": "Được trả lời bởi",
+    "create": "Được tạo bởi",
+    "exp": "Năm kinh nghiệm"
+  },
+  "question": "Câu hỏi",
+  "anwers": "Trả lời",
+  "tags": "Thẻ",
+  "discussion": "Bàn luận",
+  "writeComment": "Viết bình luận tại đây...",
+  "btnComment": "Đăng",
+  "reply": "Trả lời",
+  "related": "Câu hỏi liên quan"
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Project.CommunicateService.Protos";
+
+service CommunicationService  {
+  rpc CreateRoom (CreateRoomRequest) returns (CreateRoomResponse);
+  rpc DeleteRoom (DeleteRoomRequest) returns (DeleteRoomResponse);
+}
+message CreateRoomRequest  {
+  string UserID = 1;
+  string DoctorID = 2;
+}
+message CreateRoomResponse  {
+  string RoomID = 1;
+}
+message DeleteRoomRequest  {
+  string RoomID = 1;
+}
+message DeleteRoomResponse  {
+  bool IsSuccess = 1;
+}

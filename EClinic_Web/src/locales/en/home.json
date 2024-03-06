@@ -1,0 +1,57 @@
+{
+  "banner": {
+    "menu": {
+      "Portal": "Forum",
+      "Services": "Service Package",
+      "Booking": "Booking",
+      "Contact": "Contact",
+      "Blog": "Blogs",
+      "Doctor": "Doctor"
+    },
+    "title": "Understand, Track, Improve Health",
+    "description": "A platform for booking health services and products for you and your family",
+    "search": {
+      "keyword": "Most searched",
+      "placeholder": "Find forum post, doctor, and blog,...."
+    },
+    "button": {
+      "signup": "Sign Up",
+      "signin": "Sign In"
+    }
+  },
+  "appoiment": {
+    "title": "Book an appointment online",
+    "desc": "Make an appointment with good doctors who are dedicated to taking care of you and your family's health.",
+    "btn": "Booking now"
+  },
+  "service": {
+    "title": "Popular Services Package",
+    "desc": "We can provide over 30 services for you",
+    "btn": "All Service Package",
+    "btnCard": "Watch live"
+  },
+  "blog": {
+    "title": "Daily Health Blogs",
+    "btn": "View All Blogs"
+  },
+  "forum": {
+    "title": "Doctor Q&A",
+    "btn1": "Ask a Question",
+    "btn2": "View All"
+  },
+  "footer": {
+    "desc": "A technology company providing healthcare solutions in Vietnam",
+    "ser": "Services",
+    "Contact": "Contact",
+    "serList": [
+      {
+        "title": "Service Packages",
+        "link": "/services"
+      },
+      {
+        "title": "Book a Doctor",
+        "link": "/doctors"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "pages": {
+    "home": "Home",
+    "forum": "Forum",
+    "servies": "Services",
+    "detail": "Detail",
+    "profile": "Profile",
+    "search": "Search",
+    "doctors": "List doctor",
+    "blog": "Blog",
+    "changePassword": "Change password",
+    "historyQuestion": "History of question",
+    "comunication": "Communication",
+    "scheduleApp": "Appointment schedule",
+    "logout": "Logout",
+    "information": "Information",
+    "search_page": {
+      "title": "Quick lookup of health information",
+      "search": "Most searched keywords:"
+    },
+    "profileUser": {
+      "add": "Add new profile of your family",
+      "edit": "Edit profile of your family",
+      "add-profile": "Add profile",
+      "find": "Search profile",
+      "update": "Update profile",
+      "delete": "Delete Profile",
+      "change": "Change the information",
+      "form": {
+        "first_name": "First name",
+        "last_name": "Last name",
+        "full_name": "Full Name",
+        "email": "Email",
+        "phone_number": "Phone Number",
+        "gender": "Gender",
+        "address": "Address",
+        "date_of_birth": "Date of Birth",
+        "blood_type": "Blood Type",
+        "height": "Height",
+        "weight": "Weight",
+        "relationship": "Relationship",
+        "male": "Male",
+        "feMale": "Female"
+      }
+    }
+  },
+  "booking": {
+    "btn": "Booking",
+
+    "note_schedule": "No doctor's schedule",
+    "btn_cancel": "Cancel",
+    "btn_ct": "Continue",
+    "btn_black": "Back",
+    "btn_pay": "Confirm payment",
+    "title": "Schedule an appointment",
+    "desc": "Choose appointment date and connection method",
+    "note": "Note",
+    "gray": "Gray box",
+    "free": "is available",
+    "selected": "is already selected",
+    "you_selected": "you have selected",
+    "red": "Red box",
+    "blue": "Blue box",
+    "select_date": "Select date",
+    "select_time": "Select time",
+    "add": "Additional information",
+    "select_payment": "Select communication method",
+    "select_pro": "Select the profile you want to book an appointment for",
+    "input_search": "Search for profiles by keyword",
+    "summary": "Summary of information",
+    "total": "Total"
+  }
+}

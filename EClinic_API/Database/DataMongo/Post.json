@@ -1,0 +1,532 @@
+[{
+  "_id": "14008641-e3c7-423a-a36d-d535b7d3cfba",
+  "Title": "My wife is pregnant.",
+  "Content": "My wife is pregnant and feels nauseous constantly. What should I do to relieve this symptom?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/mangthai1.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716483439&Signature=R3jBFJOu6UwbbAFrGe%2Fbc1HIIDM%3D"
+  ],
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110321467"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110321467"
+    }
+  },
+  "LikeUserIds": [
+    "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "3480d242-8d09-43e8-910d-adbd9cb84012"
+  ]
+},{
+  "_id": "1719cb20-3271-46b0-bcf8-1ece06499ca8",
+  "Title": "I had a constant headache.",
+  "Content": "I have had a constant headache for the past few days. What disease could this be a symptom of?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daudau1.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716483934&Signature=xwIb3BtZwDlaGVrSB%2FdwIiEJ9xo%3D"
+  ],
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110351794"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110351794"
+    }
+  },
+  "LikeUserIds": [
+    "63da4fe0-de4d-4c8e-b8c8-ec3202c20038"
+  ]
+},{
+  "_id": "a9c78ffd-ba16-4c5f-b28d-3f0423cd1e67",
+  "Title": "I often feel tired.",
+  "Content": "I often feel tired and lack of energy. What could be causing this?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/kietsuc1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716484384&Signature=nYHEVbPP6i%2BFgl9rYAGE8FZNIRo%3D"
+  ],
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110378305"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110378305"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "e4079fab-6430-4536-a5c5-1426883d9773",
+  "Title": "I have constant stomach pain.",
+  "Content": "I have been having persistent abdominal pain for the past few days. What could be causing this?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daubung1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716489749&Signature=l2qscD3lNYRtKoTvdeaE9n9vyos%3D"
+  ],
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679111720144"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679111720144"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "0f7827da-b5ef-4de7-bd5a-44f75f7703cd",
+  "Title": "I have been diagnosed with diabetes.",
+  "Content": "I have been diagnosed with diabetes. What do I need to do to control my disease?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/tieuduong1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716489801&Signature=TwDIw9n6hs8hAw4F5Eww1LcfHqU%3D"
+  ],
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679113169995"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679113169995"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "1f92e421-4804-4d03-844d-d557252779d3",
+  "Title": "I have persistent back pain.",
+  "Content": "I have persistent back pain. Should I see a doctor?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daulung1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716489846&Signature=2z6cvecW31%2B4meWQhSn5AJg42Tw%3D"
+  ],
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679113293864"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679113293864"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "82acdd74-8611-4a88-8881-1fb181356d6d",
+  "Title": "I have a fever and a headache.",
+  "Content": "I have a fever and a headache. Should I see a doctor?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/chongmat1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716489901&Signature=E%2BSTUO6jQzFkBG%2B6F6PFm7VFkDE%3D"
+  ],
+  "Author": {
+    "UserID": "c36a9563-e078-4826-a2eb-ce8d9e70eb64",
+    "FirstName": "Duc",
+    "LastName": "Le Nhat",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user7.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472976&Signature=vaB%2FkdRnzuE1XxNXKhBL6C3ceN0%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132558774"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132558774"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "10da2710-b581-40cf-94e8-921e0b7a2858",
+  "Title": "I am trying to lose weight.",
+  "Content": "I am trying to lose weight. What foods should I eat to help me reach my goals?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/giamcan1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490045&Signature=K%2Fvbl34FWv30B5R6beB3BPabcf0%3D"
+  ],
+  "Author": {
+    "UserID": "c36a9563-e078-4826-a2eb-ce8d9e70eb64",
+    "FirstName": "Duc",
+    "LastName": "Le Nhat",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user7.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472976&Signature=vaB%2FkdRnzuE1XxNXKhBL6C3ceN0%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132620958"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132620958"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "283e86bd-afd6-43a5-b7db-f71b2822eb6e",
+  "Title": "I have stomach ache and nausea.",
+  "Content": "I have stomach ache and nausea. What disease could this be a symptom of?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daubung2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490100&Signature=0A6qlAkBSUCLc8OEqjHc3adtKYs%3D"
+  ],
+  "Author": {
+    "UserID": "c36a9563-e078-4826-a2eb-ce8d9e70eb64",
+    "FirstName": "Duc",
+    "LastName": "Le Nhat",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user7.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472976&Signature=vaB%2FkdRnzuE1XxNXKhBL6C3ceN0%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132707893"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132707893"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "ed061fb0-5323-4af4-b6f8-5f5459f918cc",
+  "Title": "I am pregnant and have back pain.",
+  "Content": "I am pregnant and have back pain. What can cause back pain during pregnancy?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/mangthai2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490235&Signature=L45ItEeef0Ii10a562xmfxvF9O0%3D"
+  ],
+  "Author": {
+    "UserID": "abac9d62-375e-42e9-898d-648864d34985",
+    "FirstName": "My Anh",
+    "LastName": "Le Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user11.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473200&Signature=AMFnJV2OXS7iun0UzIxWAbR01K4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679133207928"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679133207928"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "839645ed-fb06-44d7-b16c-a960f1cff352",
+  "Title": "I have depression and anxiety.",
+  "Content": "I have depression and anxiety. Can I self-treat this condition?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/tramcam1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490276&Signature=I8%2FoiimOjc8fWl3TAsyTdPG49j4%3D"
+  ],
+  "Author": {
+    "UserID": "abac9d62-375e-42e9-898d-648864d34985",
+    "FirstName": "My Anh",
+    "LastName": "Le Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user11.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473200&Signature=AMFnJV2OXS7iun0UzIxWAbR01K4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679133255748"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679133255748"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "157f2041-3030-4169-84fc-e64cd01b4201",
+  "Title": "I often have headaches.",
+  "Content": "I often have headaches. What can cause frequent headaches?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/sot1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490984&Signature=biQOmTEFDqYZ9IezhEafBEvTeBI%3D"
+  ],
+  "Author": {
+    "UserID": "abac9d62-375e-42e9-898d-648864d34985",
+    "FirstName": "My Anh",
+    "LastName": "Le Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user11.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473200&Signature=AMFnJV2OXS7iun0UzIxWAbR01K4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679134373765"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679134373765"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "ed22426e-4c13-4f28-baf2-7c71d02ef907",
+  "Title": "I am having trouble breathing and coughing. ",
+  "Content": "I am having trouble breathing and coughing. What could be causing this symptom?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/khotho1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490358&Signature=%2BzneLIFaFhUDAJIqhAterh%2BzWuo%3D"
+  ],
+  "Author": {
+    "UserID": "ec3bdeb1-dfc1-442f-8b4b-68ee68cbc848",
+    "FirstName": "Hoai Yen",
+    "LastName": "Le Vo",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user12.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473215&Signature=XbSylrzE3rix%2BCBVYfA7Ji9EHX4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679136762161"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679136762161"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "431d19ed-e579-425e-8946-3ae66deeccea",
+  "Title": "I have joint pain.",
+  "Content": "I have joint pain. What can cause joint pain?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daukhop1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490402&Signature=17ZNrn4tr0QYiku02BnqKaqbj%2Fs%3D"
+  ],
+  "Author": {
+    "UserID": "ec3bdeb1-dfc1-442f-8b4b-68ee68cbc848",
+    "FirstName": "Hoai Yen",
+    "LastName": "Le Vo",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user12.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473215&Signature=XbSylrzE3rix%2BCBVYfA7Ji9EHX4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679136812517"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679136812517"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "86aa4fd7-3911-40bf-a794-41fefe7f2388",
+  "Title": "I have a stomach ache after eating.",
+  "Content": "I have a stomach ache after eating. What can cause abdominal pain after eating?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daubung3.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490437&Signature=etsTJfYPQcWv6YrIUG8CWJvUXPQ%3D"
+  ],
+  "Author": {
+    "UserID": "ec3bdeb1-dfc1-442f-8b4b-68ee68cbc848",
+    "FirstName": "Hoai Yen",
+    "LastName": "Le Vo",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user12.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473215&Signature=XbSylrzE3rix%2BCBVYfA7Ji9EHX4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679136855798"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679136855798"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "f5f85705-f686-4755-be16-da1faa0633a3",
+  "Title": "I often have insomnia. ",
+  "Content": "I often have insomnia. How can I sleep better?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/matngu2.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490512&Signature=MvauhQnHxh185PG%2BGH3CVAH1S9M%3D"
+  ],
+  "Author": {
+    "UserID": "ec3bdeb1-dfc1-442f-8b4b-68ee68cbc848",
+    "FirstName": "Hoai Yen",
+    "LastName": "Le Vo",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user12.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473215&Signature=XbSylrzE3rix%2BCBVYfA7Ji9EHX4%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679136900643"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679136900643"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "53f84c9c-b1a8-4c0c-a842-cbd0299152f2",
+  "Title": "I often have back pain.",
+  "Content": "I often have back pain. How to relieve back pain?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daulung2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490558&Signature=NAxNCFYt%2F4cdlJD%2F%2B9jsR2KVYv4%3D"
+  ],
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137743800"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137743800"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "af62c6fc-b855-423c-97a9-e96a2818716f",
+  "Title": "I often feel dizzy and lightheaded.",
+  "Content": "I often feel dizzy and lightheaded, is this a symptom of something?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/chongmat2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716490314&Signature=nvGy8R7VUi2mIllj2xCH%2BRliCqA%3D"
+  ],
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137801440"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137801440"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "0dde905a-2e70-423a-8b52-1ceacadcd770",
+  "Title": "I have nocturia.",
+  "Content": "I have nocturia. What can cause nocturia and how to prevent it?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/matngu1.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716491084&Signature=HhfOjqzdvaFRAHG%2BkDap8EUBJ14%3D"
+  ],
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137838143"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137838143"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "a222df11-9dba-451b-ba7d-00fd5f70d256",
+  "Title": "I have joint pain.",
+  "Content": "I have joint pain. What can cause joint pain and how to relieve it?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/daukhop2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716491122&Signature=uEVX8xBpHci%2Bv4Mupe60tULA6W8%3D"
+  ],
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137887773"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137887773"
+    }
+  },
+  "LikeUserIds": []
+},{
+  "_id": "b16ef331-005b-40e1-bfd4-a1f4424d0af6",
+  "Title": "I have frequent insomnia.",
+  "Content": "I have frequent insomnia. What can cause insomnia and how to sleep better?",
+  "Image": [
+    "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/matngu3.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716491155&Signature=nK0V1vs86dCNtxXPyJ%2FZvOQ2mHg%3D"
+  ],
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "IsActive": true,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137934731"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137934731"
+    }
+  },
+  "LikeUserIds": []
+}]

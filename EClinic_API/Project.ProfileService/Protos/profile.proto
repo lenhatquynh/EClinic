@@ -1,0 +1,104 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+option csharp_namespace = "Project.ProfileService.Protos";
+
+service ProfileService  {
+  rpc EmailIsExist (CheckEmailRequest) returns (EmailExistResponse);
+  rpc CreateProfile (CreateProfileRequest) returns (CreateProfileResponse);
+  rpc GetProfile (GetProfileRequest) returns (GetProfileResponse);
+  rpc GetAllProfile (GetAllProfileRequest) returns (GetAllProfileResponse);
+  rpc GetAllUserProfile (GetAllUserProfileRequest) returns (GetAllUserProfileResponse);
+  rpc GetDoctorAndUserProfile (GetDoctorAndUserProfileRequest) returns (GetDoctorAndUserProfileResponse);
+  rpc GetPatientProfile (GetPatientProfileRequest) returns (GetPatientProfileResponse);
+}
+message CheckEmailRequest  {
+  string Email = 1;
+}
+message EmailExistResponse  {
+  bool IsExist = 1;
+  string UserID = 2;
+}
+message CreateProfileRequest  {
+  string UserID= 1;
+  string FirstName = 2;
+  string LastName = 3;
+  google.protobuf.Timestamp DateOfBirth = 4;
+  bool Gender = 5;
+  string Email = 6;
+}
+message CreateProfileResponse  {
+  bool IsSuccess = 1;
+}
+message GetProfileRequest  {
+  string UserID = 1;
+}
+message GetProfileResponse  {
+  string UserID = 1;
+  string FirstName = 2;
+  string LastName = 3;
+  string Avatar = 4;
+  string Email = 5;
+}
+message GetAllProfileRequest  {
+  repeated string UserIDs = 1;
+}
+message GetAllProfileResponse  {
+  repeated GetAllProfile Profiles = 1;
+}
+message GetAllProfile  {
+  string UserID = 1;
+  string FirstName = 2;
+  string LastName = 3;
+  string Avatar = 4;
+}
+message GetAllUserProfileRequest  {
+  repeated string ProfileIDs = 1;
+}
+message GetUserProfileResponse  {
+  string ProfileID = 1;
+  string UserID = 2;
+  string FirstName = 3;
+  string LastName = 4;
+  string Avatar = 5;
+}
+message GetAllUserProfileResponse {
+  repeated GetUserProfileResponse Profile = 1;
+}
+message GetDoctorAndUserProfileRequest  {
+  repeated string DoctorProfileIDs = 1;
+  repeated string UserProfileIDs = 2;
+}
+message DoctorAndUserProfileResponse  {
+  string DoctorProfileID = 1;
+  string DoctorUserID = 2;
+  string DoctorFirstName = 3;
+  string DoctorLastName = 4;
+  string DoctorAvatar = 5;
+  string UserProfileID = 6;
+  string UserUserID = 7;
+  string UserFirstName = 8;
+  string UserLastName = 9;
+  string UserAvatar = 10;
+}
+message GetDoctorAndUserProfileResponse {
+  repeated DoctorAndUserProfileResponse Profile = 1;
+}
+message GetPatientProfileRequest {
+  string ProfileID = 1;
+}
+message GetPatientProfileResponse{
+  string ProfileID = 1;
+  string UserID = 2;
+  string FirstName = 3;
+  string LastName = 4;
+  string Avatar = 5;
+  bool Gender = 6;
+  string DateOfBirth = 7;
+  string Address = 8;
+  string Email = 9;
+  string Phone = 10;
+  string BloodType = 11;
+  float Height = 12;
+  float Weight = 13;
+  string Relationship = 14;
+}

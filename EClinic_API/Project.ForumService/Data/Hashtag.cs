@@ -1,0 +1,11 @@
+﻿using Project.Data.Model;
+
+namespace Project.ForumService.Data
+{
+    public class Hashtag : MongoDBEntity
+    {
+        public Guid Id { get; set; }
+        public string HashtagName { get; set; }
+        public int Count { get; set; }
+    }
+}

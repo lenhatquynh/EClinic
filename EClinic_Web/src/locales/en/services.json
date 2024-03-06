@@ -1,0 +1,25 @@
+{
+  "search": {
+    "label": "Search for services",
+    "input": "Find service"
+  },
+  "specialist": {
+    "label": "Specialization"
+  },
+  "range": {
+    "label": "Price range"
+  },
+  "rate": {
+    "label": "Review"
+  },
+  "btn": "Reset",
+  "btnItem": "Details",
+  "btnRegis": "Register Service Package",
+  "price": "Price",
+  "totalSell": "Total number of buyers",
+  "inforDetail": "Details",
+  "specialService": "Outstanding Service Package",
+  "position": "Position",
+  "input_search": "Search for doctors",
+  "loadMore": "Load more"
+}

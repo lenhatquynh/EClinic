@@ -1,0 +1,17 @@
+python.exe -m pip install --upgrade pip
+pip install fastapi
+pip install PyJWT
+pip install pyodbc
+pip install python-multipart
+pip install opencv-python
+pip install tensorflow
+pip install joblib
+pip install scikit-learn==1.2.2
+pip install uvicorn
+uvicorn main:app --reload
+python -m venv venv
+pip install -r requirements.txt
+
+
+
+

@@ -1,0 +1,505 @@
+[{
+  "_id": "639c25cc-b336-4324-8f57-637b008d7e3f",
+  "PostID": "14008641-e3c7-423a-a36d-d535b7d3cfba",
+  "Content": "<p>Nausea is one of the common symptoms during pregnancy. To relieve this symptom, you can try the following:</p><ul><li>Eat light foods, such as biscuits, soft bread, fresh fruit, baked potatoes, small tofu, fresh juice, etc.</li><li>Avoid heavy foods, foods that have a bad smell or taste bitter.</li><li>Eat small, frequent meals throughout the day instead of 3 large meals.</li><li>Drink enough water, avoid drinking too many drinks containing caffeine.</li><li>Exercise gently and regularly.</li></ul><p>If your wife's symptoms become severe or persistent, contact your doctor for specific advice and support.</p>",
+  "Tags": [
+    "bdd57b29-d885-4f74-97fb-27fe891eeb86"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110608605"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110608605"
+    }
+  },
+  "Author": {
+    "UserID": "22849f83-a5b4-49eb-93ed-e2d942254521",
+    "FirstName": "Doctor",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "ea9d3ed4-3a26-4284-a1d7-eedad2da8573",
+  "PostID": "a9c78ffd-ba16-4c5f-b28d-3f0423cd1e67",
+  "Content": "<p>There are many causes of fatigue and lack of energy, including:</p><ul><li>Lack of sleep or not enough sleep</li><li>Nutritional problems, like iron or vitamin B12 deficiency</li><li>Psychological problems, like stress or depression</li><li>Infectious or inflammatory diseases</li><li>Problems with diabetes or thyroid disease</li><li>Breathing problems, like bronchitis or asthma</li></ul><p>If your fatigue and lack of energy persist and do not improve after rest, see your doctor for advice and an accurate diagnosis.</p>",
+  "Tags": [
+    "5f3bfbb8-ecfb-48a0-9835-d4872386c8e8"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110714667"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110714667"
+    }
+  },
+  "Author": {
+    "UserID": "22849f83-a5b4-49eb-93ed-e2d942254521",
+    "FirstName": "Doctor",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "e3aad4b9-17e5-4db0-a7bb-e30959876d6e",
+  "PostID": "1719cb20-3271-46b0-bcf8-1ece06499ca8",
+  "Content": "<p>Headaches can be a symptom of many different illnesses, ranging from mild to severe. Depending on other symptoms you may be feeling, including fever, joint pain, or other symptoms, your doctor may be able to diagnose the cause of your headache and treat it accordingly. If the headache persists or becomes severe, seek medical advice and proper treatment.</p>",
+  "Tags": [
+    "28d1a21d-9816-4492-80de-02063e6862e7"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110812211"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110812211"
+    }
+  },
+  "Author": {
+    "UserID": "22849f83-a5b4-49eb-93ed-e2d942254521",
+    "FirstName": "Doctor",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "eb5098b2-bebf-44eb-a0f1-b9f877c8e119",
+  "PostID": "e4079fab-6430-4536-a5c5-1426883d9773",
+  "Content": "<p>Abdominal pain can be a symptom of many different conditions, including:</p><ul><li>Digestive problems, like colitis or food allergies</li><li>Kidney problems, like kidney stones or urinary tract infections</li><li>Gynecological or reproductive problems, such as cervicitis or uterine fibroids</li><li>Cancerous conditions, such as stomach or colon cancer</li><li>Liver or gallbladder problems, such as hepatitis or gallstones</li></ul><p>If abdominal pain persists or becomes severe, see your doctor for advice and an accurate diagnosis.</p>",
+  "Tags": [
+    "579224a8-b74c-4dac-a859-14459dc788ca"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679111951880"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679111951880"
+    }
+  },
+  "Author": {
+    "UserID": "8edf474e-0fcb-49fc-9c9e-4e902c7472f2",
+    "FirstName": "Tuan",
+    "LastName": "Le Anh",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor1.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468622&Signature=oVtN5ZlwfvIY76qC6rkRMgHLw34%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "092fb8b0-5c79-4038-ae2a-f82f8503d715",
+  "PostID": "1f92e421-4804-4d03-844d-d557252779d3",
+  "Content": "<p>If you have persistent or severe back pain, you should see your doctor for advice and an accurate diagnosis. Back pain can be a sign of many different conditions, including:</p><ul><li>Spinal problems, like herniated discs or spondylolisthesis</li><li>Muscle and joint problems, like arthritis or strained muscles</li><li>Nerve problems, such as nerve pain or neuritis</li><li>Cancerous conditions, such as spine or prostate cancer</li></ul><p>Your doctor may order tests or imaging tests to make an accurate diagnosis and recommend the right treatment.</p>",
+  "Tags": [
+    "140b8b6c-9058-4701-9e62-5c0814bcc910"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679119421667"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679119421667"
+    }
+  },
+  "Author": {
+    "UserID": "b514b384-ed9c-4d68-90ae-4f437bdee6b9",
+    "FirstName": "Bich Dao",
+    "LastName": "Nguyen Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468644&Signature=YcLb%2F55HhPA3DtfX0ibxsz1vBu0%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "56635bf5-4eb5-4fd6-99bc-df8bcf8d8898",
+  "PostID": "0f7827da-b5ef-4de7-bd5a-44f75f7703cd",
+  "Content": "<p>If you have diabetes, you need to make changes to your diet and lifestyle to keep it under control. The basic steps include:</p><ul><li>Eat a healthy and balanced diet that minimizes sugar and starch</li><li>Exercise regularly to help lower blood sugar and promote heart health</li><li>Monitor your blood glucose regularly to help control the disease and adjust treatment</li><li>Take medicine as prescribed by your doctor to lower blood sugar and control the disease</li><li>Get regular checkups for vision, foot care, and other diabetes-related health problems</li></ul>",
+  "Tags": [
+    "09e005cd-7ed4-4800-86bb-e0a8fe52fc70"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679119532128"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679119532128"
+    }
+  },
+  "Author": {
+    "UserID": "b514b384-ed9c-4d68-90ae-4f437bdee6b9",
+    "FirstName": "Bich Dao",
+    "LastName": "Nguyen Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor2.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468644&Signature=YcLb%2F55HhPA3DtfX0ibxsz1vBu0%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "55f89e6e-51dd-4fb5-ac41-7af87924e32d",
+  "PostID": "82acdd74-8611-4a88-8881-1fb181356d6d",
+  "Content": "<p>If you have a fever and a headache, you should see your doctor for an accurate diagnosis and treatment. It could be symptoms of some illness, such as the flu, meningococcal disease, or a respiratory infection.</p>",
+  "Tags": [
+    "28d1a21d-9816-4492-80de-02063e6862e7"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132862263"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132862263"
+    }
+  },
+  "Author": {
+    "UserID": "5145193c-51dc-4fed-8aa9-8adc068b9c69",
+    "FirstName": "Quy Quyen",
+    "LastName": "Dao Bui",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor4.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468858&Signature=KSJh2WSpY00Y02r%2BdMPld5p0e0E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "5738e71d-b1e8-4c02-9e3d-67f65f432b4b",
+  "PostID": "10da2710-b581-40cf-94e8-921e0b7a2858",
+  "Content": "<p>To lose weight, you should eat a healthy and balanced diet, minimize sugar and starch, and increase your consumption of green vegetables, fruits, foods rich in fiber and protein. Avoid fast foods, fried foods and foods high in sugar and fat.</p>",
+  "Tags": [
+    "caa8252e-759a-4ade-a810-7bd5dfba7dab"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132948729"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132948729"
+    }
+  },
+  "Author": {
+    "UserID": "5145193c-51dc-4fed-8aa9-8adc068b9c69",
+    "FirstName": "Quy Quyen",
+    "LastName": "Dao Bui",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor4.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468858&Signature=KSJh2WSpY00Y02r%2BdMPld5p0e0E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "94d4fd71-546c-4044-8152-6fa278bb4b02",
+  "PostID": "283e86bd-afd6-43a5-b7db-f71b2822eb6e",
+  "Content": "<p>Abdominal pain and nausea can be symptoms of many different conditions, including food allergies, gastrointestinal infections or kidney pain.</p>",
+  "Tags": [
+    "579224a8-b74c-4dac-a859-14459dc788ca"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679132982707"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679132982707"
+    }
+  },
+  "Author": {
+    "UserID": "5145193c-51dc-4fed-8aa9-8adc068b9c69",
+    "FirstName": "Quy Quyen",
+    "LastName": "Dao Bui",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor4.jpg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468858&Signature=KSJh2WSpY00Y02r%2BdMPld5p0e0E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "41ccc519-dbb3-4382-802d-5a30bf2077c5",
+  "PostID": "ed061fb0-5323-4af4-b6f8-5f5459f918cc",
+  "Content": "<p>Back pain during pregnancy can be caused by weight gain, changes in sleeping position, lack of physical activity, or hormonal changes in your body. However, back pain can be a sign of other serious health problems, so if you're concerned you should consult your doctor.</p>",
+  "Tags": [
+    "bdd57b29-d885-4f74-97fb-27fe891eeb86"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679135697627"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679135697627"
+    }
+  },
+  "Author": {
+    "UserID": "5a504858-ec5d-4a7b-9c07-9302e6964bd9",
+    "FirstName": "Hang",
+    "LastName": "Trinh Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/Doctor5.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468877&Signature=tF0udp%2BnqKyGhIg9Stht16wzko0%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "3b97a3d2-c630-4784-b029-c9d79cf57d98",
+  "PostID": "839645ed-fb06-44d7-b16c-a960f1cff352",
+  "Content": "<p>Self-treating depression and anxiety is not recommended as it can cause side effects and does not address the root cause of your problem. If you feel excessive anxiety or depression, you should consult your doctor or psychologist for correct advice and treatment.</p>",
+  "Tags": [
+    "d54c6394-18b0-4af5-987c-b547f7b358a2"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679135799747"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679135799747"
+    }
+  },
+  "Author": {
+    "UserID": "5a504858-ec5d-4a7b-9c07-9302e6964bd9",
+    "FirstName": "Hang",
+    "LastName": "Trinh Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/Doctor5.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468877&Signature=tF0udp%2BnqKyGhIg9Stht16wzko0%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "0a2871bf-9a30-44a8-9883-a6f0229107bc",
+  "PostID": "157f2041-3030-4169-84fc-e64cd01b4201",
+  "Content": "<p>Causes of frequent headaches can include tension, throat tightness, tension headaches, or blood vessel problems. However, headaches can also be a sign of some other serious illness, so if you have frequent headaches, you should consult your doctor for an accurate diagnosis and treatment.</p>",
+  "Tags": [
+    "28d1a21d-9816-4492-80de-02063e6862e7"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679135904633"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679135904633"
+    }
+  },
+  "Author": {
+    "UserID": "5a504858-ec5d-4a7b-9c07-9302e6964bd9",
+    "FirstName": "Hang",
+    "LastName": "Trinh Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/Doctor5.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716468877&Signature=tF0udp%2BnqKyGhIg9Stht16wzko0%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "cf556717-2a74-49c5-8139-fb06c06078b7",
+  "PostID": "431d19ed-e579-425e-8946-3ae66deeccea",
+  "Content": "<p>Joint pain can be a symptom of many different diseases, including arthritis, osteoarthritis, or rheumatism. If you have joint pain, you should consult your doctor for an accurate diagnosis and treatment.</p>",
+  "Tags": [
+    "9bbeb064-06b6-4afc-8224-451ff1833f20"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137276907"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137276907"
+    }
+  },
+  "Author": {
+    "UserID": "b0ed6e7d-5824-49ee-a025-8de3b677a5fc",
+    "FirstName": "Van Khanh",
+    "LastName": "Nguyen Hong",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469353&Signature=U2ahD2xZkuKuy6ySpE9wdLHn%2FJM%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "78417702-73b7-4d89-bb0d-e45d690f4f93",
+  "PostID": "86aa4fd7-3911-40bf-a794-41fefe7f2388",
+  "Content": "<p>Abdominal pain after eating can be a symptom of many different conditions, including food allergies, peptic ulcers, or bowel obstruction. If you frequently experience abdominal pain after eating, you should consult your doctor for an accurate diagnosis and treatment.</p>",
+  "Tags": [
+    "579224a8-b74c-4dac-a859-14459dc788ca"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137337634"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137337634"
+    }
+  },
+  "Author": {
+    "UserID": "b0ed6e7d-5824-49ee-a025-8de3b677a5fc",
+    "FirstName": "Van Khanh",
+    "LastName": "Nguyen Hong",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469353&Signature=U2ahD2xZkuKuy6ySpE9wdLHn%2FJM%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "617663e7-64e0-45e9-9639-ba6dd06a4748",
+  "PostID": "ed22426e-4c13-4f28-baf2-7c71d02ef907",
+  "Content": "<p>Shortness of breath and coughing can be symptoms of certain conditions such as asthma, bronchitis, or a respiratory infection. If you have difficulty breathing and coughing, you should consult your doctor for an accurate diagnosis and treatment.</p>",
+  "Tags": [
+    "eaf149ac-cf5b-4afc-bb15-1b3680d41060"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137380499"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137380499"
+    }
+  },
+  "Author": {
+    "UserID": "b0ed6e7d-5824-49ee-a025-8de3b677a5fc",
+    "FirstName": "Van Khanh",
+    "LastName": "Nguyen Hong",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469353&Signature=U2ahD2xZkuKuy6ySpE9wdLHn%2FJM%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "6852b434-6e69-4e58-819f-277f9733eac9",
+  "PostID": "f5f85705-f686-4755-be16-da1faa0633a3",
+  "Content": "<p>For better sleep, you should create a comfortable and quiet sleep environment, avoid staying up late, and reduce caffeine and stimulant consumption before bedtime. If these measures do not help you sleep better, you should consult your doctor for the correct advice and treatment.</p>",
+  "Tags": [
+    "fdf0eb15-c023-4240-8d34-48b6f4417fb0"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679137457574"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679137457574"
+    }
+  },
+  "Author": {
+    "UserID": "b0ed6e7d-5824-49ee-a025-8de3b677a5fc",
+    "FirstName": "Van Khanh",
+    "LastName": "Nguyen Hong",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469353&Signature=U2ahD2xZkuKuy6ySpE9wdLHn%2FJM%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "87b935ec-fe77-41d9-afde-86bf3933368b",
+  "PostID": "b16ef331-005b-40e1-bfd4-a1f4424d0af6",
+  "Content": "<p>Insomnia can be a symptom of many different illnesses, including anxiety, depression, sleep disorders or health-related problems. To sleep better, you should exercise regularly, keep your routine in moderation, and practice relaxation skills like yoga or breathing practices. If these measures do not help you sleep better, you should consult your doctor for advice and correct treatment.</p>",
+  "Tags": [
+    "fdf0eb15-c023-4240-8d34-48b6f4417fb0"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138201366"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138201366"
+    }
+  },
+  "Author": {
+    "UserID": "a156cf24-3cbb-43d7-a76b-d09c842deeda",
+    "FirstName": "Bach Tuyet",
+    "LastName": "Phan Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor8.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469640&Signature=UKwnrT1f1vY%2BKZIfJl3J6djsj8E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "0500c645-75ed-4c87-b5f2-24f49637dde3",
+  "PostID": "53f84c9c-b1a8-4c0c-a842-cbd0299152f2",
+  "Content": "<p>To reduce back pain, you should practice gentle exercise such as yoga or walking, increase the intensity and rest of the day, and reduce computer and cell phone use to avoid sitting. long or crouched for a long time. If these measures do not help relieve back pain, you should consult your doctor for advice and primary treatment.</p>",
+  "Tags": [
+    "140b8b6c-9058-4701-9e62-5c0814bcc910"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138333481"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138333481"
+    }
+  },
+  "Author": {
+    "UserID": "a156cf24-3cbb-43d7-a76b-d09c842deeda",
+    "FirstName": "Bach Tuyet",
+    "LastName": "Phan Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor8.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469640&Signature=UKwnrT1f1vY%2BKZIfJl3J6djsj8E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "4d26dd0d-554f-4b85-b6ff-3fc8a431001b",
+  "PostID": "af62c6fc-b855-423c-97a9-e96a2818716f",
+  "Content": "<p>Dizziness and lightheadedness can be symptoms of many different conditions, including low blood pressure, anemia, vestibular disorders, or problems with the middle ear. If you frequently experience dizziness or lightheadedness, you should consult your doctor for an accurate diagnosis and treatment.</p>",
+  "Tags": [
+    "28d1a21d-9816-4492-80de-02063e6862e7"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138384303"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138384303"
+    }
+  },
+  "Author": {
+    "UserID": "a156cf24-3cbb-43d7-a76b-d09c842deeda",
+    "FirstName": "Bach Tuyet",
+    "LastName": "Phan Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor8.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469640&Signature=UKwnrT1f1vY%2BKZIfJl3J6djsj8E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "2fead9f7-92ec-400d-8706-e1dc56954fca",
+  "PostID": "0dde905a-2e70-423a-8b52-1ceacadcd770",
+  "Content": "<p>Nocturia can be a symptom of many different conditions, including diabetes, cystitis, or prostate problems. To prevent nocturia, you should avoid consuming caffeinated beverages, exercise regularly, and avoid consuming too much water in the evening. If these measures do not help stop nocturia, you should consult your doctor for advice and correct treatment.</p>",
+  "Tags": [
+    "88340f1b-8fff-43d2-89d8-05d6bb0bd54d"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138432953"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138432953"
+    }
+  },
+  "Author": {
+    "UserID": "a156cf24-3cbb-43d7-a76b-d09c842deeda",
+    "FirstName": "Bach Tuyet",
+    "LastName": "Phan Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor8.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469640&Signature=UKwnrT1f1vY%2BKZIfJl3J6djsj8E%3D"
+  },
+  "LikeUserIds": []
+},{
+  "_id": "6adf52ab-d380-4498-a576-e1fae06c7fa5",
+  "PostID": "a222df11-9dba-451b-ba7d-00fd5f70d256",
+  "Content": "<p>Joint pain can be a symptom of many different diseases, including arthritis and osteoarthritis. To relieve joint pain, you should reduce your activity intensity and avoid activities that put stress on your joints, apply heat or cold to relieve pain, and take pain relievers as prescribed by your doctor. If these measures do not help relieve joint pain, you should consult your doctor for advice and correct treatment.</p>",
+  "Tags": [
+    "9bbeb064-06b6-4afc-8224-451ff1833f20"
+  ],
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138528583"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138528583"
+    }
+  },
+  "Author": {
+    "UserID": "a156cf24-3cbb-43d7-a76b-d09c842deeda",
+    "FirstName": "Bach Tuyet",
+    "LastName": "Phan Thi",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/doctor8.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716469640&Signature=UKwnrT1f1vY%2BKZIfJl3J6djsj8E%3D"
+  },
+  "LikeUserIds": []
+}]

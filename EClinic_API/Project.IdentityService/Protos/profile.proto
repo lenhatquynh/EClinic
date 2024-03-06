@@ -1,0 +1,26 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+option csharp_namespace = "Project.IdentityService.Protos";
+
+service ProfileService  {
+  rpc EmailIsExist (CheckEmailRequest) returns (EmailExistResponse);
+  rpc CreateProfile (CreateProfileRequest) returns (CreateProfileResponse);
+}
+message CheckEmailRequest  {
+  string Email = 1;
+}
+message EmailExistResponse  {
+  bool IsExist = 1;
+  string UserID = 2;
+}
+message CreateProfileRequest  {
+  string UserID= 1;
+  string FirstName = 2;
+  string LastName = 3;
+  google.protobuf.Timestamp DateOfBirth = 4;
+  bool Gender = 5;
+  string Email = 6;
+}
+message CreateProfileResponse  {
+  bool IsSuccess = 1;
+}

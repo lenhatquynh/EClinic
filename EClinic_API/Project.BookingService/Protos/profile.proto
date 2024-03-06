@@ -1,0 +1,59 @@
+syntax = "proto3";
+option csharp_namespace = "Project.BookingService.Protos";
+
+service ProfileService  {
+  rpc GetAllUserProfile (GetAllUserProfileRequest) returns (GetAllUserProfileResponse);
+  rpc GetDoctorAndUserProfile (GetDoctorAndUserProfileRequest) returns (GetDoctorAndUserProfileResponse);
+  rpc GetPatientProfile (GetPatientProfileRequest) returns (GetPatientProfileResponse);
+}
+message GetAllUserProfileRequest  {
+  repeated string ProfileIDs = 1;
+}
+message GetUserProfileResponse  {
+  string ProfileID = 1;
+  string UserID = 2;
+  string FirstName = 3;
+  string LastName = 4;
+  string Avatar = 5;
+}
+message GetAllUserProfileResponse {
+  repeated GetUserProfileResponse Profile = 1;
+}
+message GetDoctorAndUserProfileRequest  {
+  repeated string DoctorProfileIDs = 1;
+  repeated string UserProfileIDs = 2;
+}
+message DoctorAndUserProfileResponse  {
+  string DoctorProfileID = 1;
+  string DoctorUserID = 2;
+  string DoctorFirstName = 3;
+  string DoctorLastName = 4;
+  string DoctorAvatar = 5;
+  string UserProfileID = 6;
+  string UserUserID = 7;
+  string UserFirstName = 8;
+  string UserLastName = 9;
+  string UserAvatar = 10;
+}
+message GetDoctorAndUserProfileResponse {
+  repeated DoctorAndUserProfileResponse Profile = 1;
+}
+message GetPatientProfileRequest {
+  string ProfileID = 1;
+}
+message GetPatientProfileResponse{
+  string ProfileID = 1;
+  string UserID = 2;
+  string FirstName = 3;
+  string LastName = 4;
+  string Avatar = 5;
+  bool Gender = 6;
+  string DateOfBirth = 7;
+  string Address = 8;
+  string Email = 9;
+  string Phone = 10;
+  string BloodType = 11;
+  float Height = 12;
+  float Weight = 13;
+  string Relationship = 14;
+}

@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "Project.IdentityService.Protos";
+service UserService  {
+  rpc CreateUser (CreateUserRequest) returns (CreateUserResponse);
+  rpc UpdateUser (UpdateUserRequest) returns (UpdateUserResponse);
+  rpc GetAllUserWithRole (GetAllUserWithRoleRequest) returns (GetAllUserWithRoleResponse);
+  rpc GetUser (GetUserRequest) returns (GetUserResponse);
+}
+message CreateUserRequest  {
+  string Email = 1;
+  string Role = 2;
+  bool Enabled = 3;
+}
+message UpdateUserRequest  {
+  string UserID = 1;
+  bool Enabled = 2;
+  string Email = 3;
+}
+message UpdateUserResponse  {
+  bool IsSuccess = 1;
+  string UserID = 2;
+}
+message CreateUserResponse  {
+  bool IsSuccess = 1;
+  string UserID = 2;
+}
+message GetAllUserWithRoleRequest  {
+  string Role = 1;
+}
+message GetAllUserWithRoleResponse  {
+  repeated GetUserRoleResponse User = 1;
+}
+message GetUserRequest  {
+  string UserID = 1;
+}
+message GetUserResponse  {
+  bool Enabled = 1;
+}
+message GetUserRoleResponse  {
+  string UserID = 1;
+  bool Enabled = 2;
+}

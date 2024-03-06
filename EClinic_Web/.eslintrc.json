@@ -1,0 +1,13 @@
+{
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  // we just import React global instead of component scope
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    /*
+    Rule to warn if any declared variables are not used, except for variables whose name begins with an underscore
+    */
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
+  }
+}

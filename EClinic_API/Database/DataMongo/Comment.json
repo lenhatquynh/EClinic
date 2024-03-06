@@ -1,0 +1,186 @@
+[{
+  "_id": "fa9867cf-c167-42b3-87ab-4255c2fb7d3f",
+  "PostId": "14008641-e3c7-423a-a36d-d535b7d3cfba",
+  "Content": "I am very grateful to the doctor.",
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679110971322"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679110971322"
+    }
+  },
+  "LikeUserIds": [
+    "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "22849f83-a5b4-49eb-93ed-e2d942254521",
+    "3480d242-8d09-43e8-910d-adbd9cb84012"
+  ],
+  "ReplyComments": [
+    {
+      "_id": "a8034f4a-dd53-49e9-9e68-b5629eedf46a",
+      "Content": "Nothing! that is our mission.",
+      "Author": {
+        "UserID": "22849f83-a5b4-49eb-93ed-e2d942254521",
+        "FirstName": "Doctor",
+        "LastName": "Test",
+        "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+      },
+      "CreatedAt": {
+        "$date": {
+          "$numberLong": "1679111035086"
+        }
+      },
+      "UpdatedAt": {
+        "$date": {
+          "$numberLong": "1679111035086"
+        }
+      },
+      "LikeUserIds": [
+        "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+        "3480d242-8d09-43e8-910d-adbd9cb84012"
+      ]
+    }
+  ]
+},{
+  "_id": "cf82e14a-472c-4930-af69-5f2eb41133f8",
+  "PostId": "1719cb20-3271-46b0-bcf8-1ece06499ca8",
+  "Content": "Tks Doctor!♥♥♥",
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679111339982"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679111339982"
+    }
+  },
+  "LikeUserIds": [],
+  "ReplyComments": []
+},{
+  "_id": "85dbe17d-94b1-4dd8-bacd-070c6ec2d004",
+  "PostId": "a9c78ffd-ba16-4c5f-b28d-3f0423cd1e67",
+  "Content": "Tks Doctor!",
+  "Author": {
+    "UserID": "63da4fe0-de4d-4c8e-b8c8-ec3202c20038",
+    "FirstName": "User",
+    "LastName": "Test",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Default/default.jpeg?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716465218&Signature=zL0NQyzkJGhSAyJB%2F54MIqyfrkA%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679111430758"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679111430758"
+    }
+  },
+  "LikeUserIds": [],
+  "ReplyComments": []
+},{
+  "_id": "6cc9ce66-a0d4-4f5b-ae08-62e5654295f6",
+  "PostId": "e4079fab-6430-4536-a5c5-1426883d9773",
+  "Content": "Tks Doctor!♥",
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679112449981"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679112449981"
+    }
+  },
+  "LikeUserIds": [],
+  "ReplyComments": []
+},{
+  "_id": "e03943d9-d4d3-410c-8877-5758ac7c4ed7",
+  "PostId": "14008641-e3c7-423a-a36d-d535b7d3cfba",
+  "Content": "I also wish my wife had a baby.",
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679112545375"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679112545375"
+    }
+  },
+  "LikeUserIds": [
+    "3480d242-8d09-43e8-910d-adbd9cb84012"
+  ],
+  "ReplyComments": []
+},{
+  "_id": "d2ec4222-8b09-41fc-ad60-3c5d2376d9ed",
+  "PostId": "1719cb20-3271-46b0-bcf8-1ece06499ca8",
+  "Content": "I also have frequent headaches, it's very dangerous.",
+  "Author": {
+    "UserID": "42ce372a-7078-4a4c-93a3-c5000d58bff1",
+    "FirstName": "Bao",
+    "LastName": "Nguyen Hoang",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user6.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716472957&Signature=hX7KWjakTSng5Kish6oGCFuMc%2Fc%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679112763516"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679112763516"
+    }
+  },
+  "LikeUserIds": [],
+  "ReplyComments": []
+},{
+  "_id": "059c0376-8adf-4690-8a6a-d2a3dd4ab914",
+  "PostId": "14008641-e3c7-423a-a36d-d535b7d3cfba",
+  "Content": "This is also the problem I'm looking for.",
+  "Author": {
+    "UserID": "3480d242-8d09-43e8-910d-adbd9cb84012",
+    "FirstName": "Dat",
+    "LastName": "Dao Phuoc",
+    "Avatar": "https://eclinicbucket.s3.ap-southeast-1.amazonaws.com/Image/user15.png?AWSAccessKeyId=AKIAUBYK6ZN247UCBSWB&Expires=1716473327&Signature=Q0jDQOxg3RLhHfV27Lg%2FxI2gw9s%3D"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1679138623053"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1679138623053"
+    }
+  },
+  "LikeUserIds": [],
+  "ReplyComments": []
+}]
