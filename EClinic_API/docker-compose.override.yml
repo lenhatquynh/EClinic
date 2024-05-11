@@ -11,7 +11,7 @@ services:
       - "80"
       - "1111:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
   project.apigateways:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -22,7 +22,7 @@ services:
       - "80"
       - "8888:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
 
   project.profileservice:
     environment:
@@ -36,7 +36,7 @@ services:
       - "80"
       - "2222:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
 
   project.forumservice:
@@ -51,7 +51,7 @@ services:
       - "80"
       - "3333:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
 
   project.notificationservice:
@@ -64,7 +64,7 @@ services:
       - "80"
       - "4444:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
 
   # project.testservice:
   #   environment:
@@ -78,7 +78,7 @@ services:
   #     - "80"
   #     - "1234:443"
   #   volumes:
-  #     - ~/.aspnet/https:/https:ro
+  #     - ./cert:/https:ro
   #     - ~/.aws:/root/.aws
 
   project.blogservice:
@@ -93,7 +93,7 @@ services:
       - "80"
       - "5555:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
       
   project.serviceinformationservice:
@@ -108,7 +108,7 @@ services:
       - "80"
       - "5454:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
 
   project.bookingservice:
@@ -123,7 +123,7 @@ services:
       - "80"
       - "7777:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
 
   project.communicateservice:
@@ -138,7 +138,7 @@ services:
       - "80"
       - "8686:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
 
   project.paymentservice:
@@ -153,5 +153,5 @@ services:
       - "80"
       - "9999:443"
     volumes:
-      - ~/.aspnet/https:/https:ro
+      - ./cert:/https:ro
       - ~/.aws:/root/.aws
