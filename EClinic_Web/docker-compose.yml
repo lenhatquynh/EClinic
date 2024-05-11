@@ -1,12 +1,11 @@
-version: "3.9"
+version: "3.8"
 
 services:
-  app:
-    build: .
+  eclinic-ui:
+    container_name: eclinic-ui
+    image: eclinic-ui
+    build:
+      context: .
+      target: development
     ports:
-      - "3000:3000"
-    volumes:
-      - .:/app
-    environment:
-      NODE_ENV: development
-    command: yarn run dev
+      - 3000:3000

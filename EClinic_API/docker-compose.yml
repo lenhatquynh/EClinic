@@ -8,7 +8,7 @@ services:
       eclinic:
         ipv4_address: 172.20.0.32
     ports:
-     - "1444:1433"
+     - "1433:1433"
     environment:
      - ACCEPT_EULA=Y
      - SA_PASSWORD=Eclinic123

@@ -1,21 +1,23 @@
-# Use an official Node runtime as a parent image
-FROM node:18-alpine
-
-RUN npm install -g nodemon
-# Set the working directory to /app
+# Development
+FROM node:18-alpine AS development
 WORKDIR /app
-
-# Copy the package.json and yarn.lock files to the container
-COPY package.json yarn.lock ./
-
-# Install dependencies
+COPY package.json .
+COPY yarn.lock .
 RUN yarn install
-
-# Copy the remaining application files to the container
 COPY . .
-
-# Expose port 3000 for the application
 EXPOSE 3000
+CMD [ "yarn", "dev" ]
 
-# Start the application
-CMD ["yarn", "dev"]
+# ==========================
+
+# Production
+
+FROM node:18-alpine AS production
+WORKDIR /app
+COPY package.json .
+COPY yarn.lock .
+RUN yarn install
+COPY . .
+EXPOSE 3000
+RUN yarn build
+CMD [ "yarn", "start" ]
