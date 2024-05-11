@@ -4,70 +4,65 @@ services:
   project.identityservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
     ports:
-      - "1111:80"
-      # - "1111:443" #for https
-    # volumes:
-    #   - ~/.aspnet/https:/https:ro #for https
+      - "80"
+      - "1111:443"
+    volumes:
+      - ~/.aspnet/https:/https:ro
   project.apigateways:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
     ports:
-      - "8888:80"
-      # - "8888:443" #for https
-    # volumes:
-    #   - ~/.aspnet/https:/https:ro #for https
+      - "80"
+      - "8888:443"
+    volumes:
+      - ~/.aspnet/https:/https:ro
 
   project.profileservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "2222:80"
-      # - "2222:443" #for https
+      - "80"
+      - "2222:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
 
   project.forumservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "3333:80"
-      # - "3333:443" #for https
+      - "80"
+      - "3333:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
 
   project.notificationservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
     ports:
-      - "4444:80"
-      # - "4444:443" #for https
+      - "80"
+      - "4444:443"
     volumes:
       - ~/.aspnet/https:/https:ro
 
@@ -89,79 +84,74 @@ services:
   project.blogservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "5555:80"
-      # - "5555:443" #for https
+      - "80"
+      - "5555:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
       
   project.serviceinformationservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "5454:80"
-      # - "5454:443" #for https
+      - "80"
+      - "5454:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
 
   project.bookingservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "7777:80"
-      # - "7777:443" #for https
+      - "80"
+      - "7777:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
 
   project.communicateservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "8686:80"
-      # - "8686:443" #for https
+      - "80"
+      - "8686:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
 
   project.paymentservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80 #for http
-      # - ASPNETCORE_URLS=https://+:443 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123 #for https
-      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx #for https
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Eclinic123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - AWS_PROFILE= eclinic
       - AWS_REGION= ap-southeast-1
     ports:
-      - "9999:80"
-      # - "9999:443" #for https
+      - "80"
+      - "9999:443"
     volumes:
-      # - ~/.aspnet/https:/https:ro #for https
+      - ~/.aspnet/https:/https:ro
       - ~/.aws:/root/.aws
