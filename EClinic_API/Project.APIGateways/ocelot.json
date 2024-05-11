@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.5",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/identity/{controller}/{Action}",
@@ -15,11 +15,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.7",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/profile/{controller}/{Action}",
@@ -28,11 +28,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.8",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/forum/{controller}/{Action}",
@@ -41,11 +41,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.9",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/notification/{controller}/{Action}",
@@ -54,11 +54,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.11",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/blog/{controller}/{Action}",
@@ -67,11 +67,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.12",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/serviceinformation/{controller}/{Action}",
@@ -80,11 +80,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.13",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/booking/{controller}/{Action}",
@@ -93,11 +93,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.14",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/v1/communication/{controller}/{Action}",
@@ -110,7 +110,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.14",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/message/{everything}",
@@ -123,7 +123,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.14",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/call/{everything}",
@@ -132,7 +132,7 @@
     },
     {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.20.0.15",
@@ -405,6 +405,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:8888"
+    "BaseUrl": "https://localhost:8888"
   }
 }
