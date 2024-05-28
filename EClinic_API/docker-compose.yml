@@ -8,10 +8,10 @@ services:
       eclinic:
         ipv4_address: 172.20.0.32
     ports:
-     - "1433:1433"
+      - "1433:1433"
     environment:
-     - ACCEPT_EULA=Y
-     - SA_PASSWORD=Eclinic123
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Eclinic123
   mongodb:
     image: "mongo:latest"
     container_name: mongodb
@@ -19,7 +19,7 @@ services:
       eclinic:
         ipv4_address: 172.20.0.2
     ports:
-     - "27018:27017"
+      - "27018:27017"
     environment:
       - MONGO_INITDB_DATABASE=ForumService,NewsService
   redis:
@@ -29,7 +29,7 @@ services:
       eclinic:
         ipv4_address: 172.20.0.3
     ports:
-     - "6379:6379"
+      - "6379:6379"
   rabbitmq:
     image: "rabbitmq:3.11-management"
     container_name: rabbitmq
@@ -85,14 +85,6 @@ services:
     networks:
       eclinic:
         ipv4_address: 172.20.0.9
-  # project.testservice:
-  #   image: ${DOCKER_REGISTRY-}projecttestservice
-  #   build:
-  #     context: .
-  #     dockerfile: Project.TestService/Dockerfile
-  #   networks:
-  #     eclinic:
-  #       ipv4_address: 172.20.0.10
 
   project.blogservice:
     image: ${DOCKER_REGISTRY-}projectblogservice
@@ -138,17 +130,7 @@ services:
     networks:
       eclinic:
         ipv4_address: 172.20.0.15
-  # project.aiservice:
-  #   image: ${DOCKER_REGISTRY-}projectaiservice
-  #   container_name: ai
-  #   build:
-  #     context: .
-  #     dockerfile: Project.AIService/Dockerfile
-  #   networks:
-  #     eclinic:
-  #       ipv4_address: 172.20.0.16
-  #   ports:
-  #     - "9889:8000"
+
 networks:
   eclinic:
     driver: bridge

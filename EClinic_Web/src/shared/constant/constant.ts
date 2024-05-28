@@ -24,13 +24,6 @@ export const QUERY_KEYS = {
     NEW_ROOM: "CHAT_NEW_ROOM"
   },
   PAYMENT: "PAYMENT",
-  AI: {
-    MachineLearning: "MachineLearning",
-    DeepLearning: "DeepLearning",
-    Model: "Model",
-    History: "History",
-    AIPredict: "AIPredict"
-  },
   BOOKING: {
     BOOKING: "BOOKING/BOOKING",
     SERVICE: "BOOKING/SERVICE",
@@ -70,13 +63,6 @@ export const URL_API = {
     ROOM: "Communication/Rooms",
     CHATMESSAGE: "Communication/ChatMessages",
     RoomTypes: "Communication/RoomTypes"
-  },
-  AI: {
-    MachineLearning: "MachineLearning",
-    DeepLearning: "DeepLearning",
-    Model: "Model",
-    History: "History",
-    AIPredict: "AIPredict"
   },
   BOOKING: {
     BOOKING: "booking/Booking",

@@ -105,32 +105,6 @@
       "DangerousAcceptAnyServerCertificateValidator": true
     },
     {
-      "DownstreamPathTemplate": "/message/{everything}",
-      "DownstreamScheme": "ws",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "172.20.0.14",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/message/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
-      "SwaggerKey": "ai"
-    },
-    {
-      "DownstreamPathTemplate": "/call/{everything}",
-      "DownstreamScheme": "ws",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "172.20.0.14",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/call/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
-      "SwaggerKey": "ai"
-    },
-    {
       "DownstreamPathTemplate": "/api/v1/{controller}/{Action}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [

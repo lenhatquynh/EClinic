@@ -6,25 +6,25 @@ import React from "react"
 import CreateServicePackage from "../ServicePackage/CreateServicePackage"
 
 const ServiceEdit = () => {
-    const router = useRouter()
-    const { data, isLoading } = useGetServicePackageByIDForAdQuery(
-        router.query.id! as string
-    )
-    if (isLoading) {
-        return <p>Loading Service Package</p>
-    }
-    return (
-        <MainHeadingLayout heading="Update Service Package">
-            <Head>
-                <title>Update Service Package</title>
-            </Head>
-            <CreateServicePackage
-                labelForm="Update"
-                servicePackage={data?.data}
-                mode="update"
-            />
-        </MainHeadingLayout>
-    )
+  const router = useRouter()
+  const { data, isLoading } = useGetServicePackageByIDForAdQuery(
+    router.query.id! as string
+  )
+  if (isLoading) {
+    return <p>Loading Service Package</p>
+  }
+  return (
+    <MainHeadingLayout heading="Update Service Package">
+      <Head>
+        <title>Update Service Package</title>
+      </Head>
+      <CreateServicePackage
+        labelForm="Update"
+        servicePackage={data?.data}
+        mode="update"
+      />
+    </MainHeadingLayout>
+  )
 }
 
 export default ServiceEdit

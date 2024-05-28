@@ -3,10 +3,10 @@ import AdminPaymentPage from "module/Admin/Payment/AdminPaymentPage"
 import { NextPageWithLayout } from "pages/page"
 
 const Page: NextPageWithLayout = () => {
-    return <AdminPaymentPage />
+  return <AdminPaymentPage />
 }
 Page.getLayout = (page) => {
-    return <AdminLayout>{page}</AdminLayout>
+  return <AdminLayout>{page}</AdminLayout>
 }
 
 export default Page

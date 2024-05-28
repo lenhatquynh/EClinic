@@ -219,10 +219,6 @@ const AdminLayout = ({ children }: PropsWithChildren) => {
             title: "Patient",
             link: "/admin/accounts/patient"
           },
-          {
-            title: "Expert",
-            link: "/admin/accounts/expert"
-          }
         ]
       },
       {

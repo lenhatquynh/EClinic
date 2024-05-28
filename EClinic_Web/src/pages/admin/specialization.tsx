@@ -3,10 +3,10 @@ import AdminSpecializationPage from "module/Admin/Specialization/AdminSpecializa
 import { NextPageWithLayout } from "pages/page"
 
 const Page: NextPageWithLayout = () => {
-    return <AdminSpecializationPage />
+  return <AdminSpecializationPage />
 }
 Page.getLayout = (page) => {
-    return <AdminLayout>{page}</AdminLayout>
+  return <AdminLayout>{page}</AdminLayout>
 }
 
 export default Page

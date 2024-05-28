@@ -5,7 +5,10 @@ import { useRouter } from "next/router"
 import { NextPageWithLayout } from "pages/page"
 import { ServicePackage } from "types/Service"
 const ServicesDetailPage = dynamic(
-  () => import("module/User/Services/ServicesDetailPage").then((module) => module.default),
+  () =>
+    import("module/User/Services/ServicesDetailPage").then(
+      (module) => module.default
+    ),
   {
     ssr: false
   }
