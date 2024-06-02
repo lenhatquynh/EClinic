@@ -1,0 +1,44 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+      docker: 24
+    commands:
+      - echo Installing dependencies...
+      - yum update -y
+      - curl -fsSL https://get.docker.com | sh
+      - service docker start
+      - npm install -g yarn
+
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+
+  build:
+    commands:
+      - echo Building Docker images...
+      - cd EClinic/EClinic_API
+      - docker-compose build
+      - docker-compose up -d
+      - echo Running EClinic.sh script...
+      - cd bash
+      - sh EClinic.sh
+
+  post_build:
+    commands:
+      - echo Setting up EClinic_Web...
+      - cd ../../EClinic_Web
+      - yarn install
+      - yarn dev
+
+artifacts:
+  files:
+    - '**/*'
+
+cache:
+  paths:
+    - '/root/.npm/**/*'
+    - '/root/.cache/yarn/**/*'
