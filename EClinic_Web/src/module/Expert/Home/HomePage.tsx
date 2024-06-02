@@ -3,8 +3,6 @@ import TabsCustom from "layout/Management/components/TabsCustom"
 import Head from "next/head"
 import { useMemo } from "react"
 import Overview from "./section/Overview"
-import PredictionHistorys from "./section/components/PredictionHistorys"
-import TestModel from "./section/components/TestModel"
 
 const HomePage = () => {
   const tabs = useMemo(
@@ -13,20 +11,6 @@ const HomePage = () => {
         key: 0,
         label: `Overview`,
         children: <Overview />
-      },
-      {
-        key: 1,
-        label: `Prediction history`,
-        children: <PredictionHistorys />
-      },
-      {
-        key: 2,
-        label: `Test model`,
-        children: (
-          <>
-            <TestModel />
-          </>
-        )
       }
     ],
     []
